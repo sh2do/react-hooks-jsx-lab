@@ -7,7 +7,6 @@ function Home() {
       <h1>
         {Name}is a Web Developer from {city}
       </h1>
-      <h1>Name is a Web Developer from City</h1>
     </div>
   );
 }
