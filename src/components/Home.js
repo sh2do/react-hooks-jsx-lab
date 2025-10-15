@@ -1,11 +1,11 @@
 import React from "react";
-import { Name, city } from "../data/data.js";
+import { name, city } from "../data/data.js";
 
 function Home() {
   return (
     <div id="home">
-      <h1>
-        {Name}is a Web Developer from {city}
+      <h1 style={{ color: "firebrick" }}>
+        {name}is a Web Developer from {city}
       </h1>
     </div>
   );
